@@ -1,0 +1,306 @@
+{
+  "workers": {
+    "HW-2026-44": {
+      "name": "Anita Devi",
+      "worker_id": "HW-2026-44",
+      "created_at": "2026-07-08T11:09:07.063604"
+    },
+    "123456": {
+      "name": "Samarth Patil",
+      "worker_id": "123456",
+      "created_at": "2026-07-08T11:10:17.923541"
+    },
+    "HW-TEST-49916": {
+      "name": "Anita Devi",
+      "worker_id": "HW-TEST-49916",
+      "created_at": "2026-07-08T11:14:35.701007"
+    },
+    "HW-TEST-62907": {
+      "name": "Anita Devi",
+      "worker_id": "HW-TEST-62907",
+      "created_at": "2026-07-08T11:36:47.633543"
+    },
+    "HW-TEST-26437": {
+      "name": "Anita Devi",
+      "worker_id": "HW-TEST-26437",
+      "created_at": "2026-07-08T11:56:18.736660"
+    },
+    "654321": {
+      "name": "Drushti bhavsar",
+      "worker_id": "654321",
+      "created_at": "2026-07-08T12:02:35.324112"
+    },
+    "54445": {
+      "name": "shreya shinde",
+      "worker_id": "54445",
+      "created_at": "2026-07-12T00:07:31.301814"
+    },
+    "23230": {
+      "name": "om pite",
+      "worker_id": "23230",
+      "created_at": "2026-07-12T00:08:17.914149"
+    }
+  },
+  "attendance": [
+    {
+      "worker_id": "HW-2026-44",
+      "worker_name": "Anita Devi",
+      "date": "2026-07-08",
+      "check_in": "09:00",
+      "check_out": null,
+      "remarks": null
+    },
+    {
+      "worker_id": "123456",
+      "worker_name": "Samarth Patil",
+      "date": "2026-07-08",
+      "check_in": "11:09",
+      "check_out": "11:15",
+      "remarks": null
+    },
+    {
+      "worker_id": "HW-TEST-49916",
+      "worker_name": "Anita Devi",
+      "date": "2026-07-08",
+      "check_in": "09:00",
+      "check_out": null,
+      "remarks": null
+    },
+    {
+      "worker_id": "HW-TEST-62907",
+      "worker_name": "Anita Devi",
+      "date": "2026-07-08",
+      "check_in": "09:00",
+      "check_out": null,
+      "remarks": null
+    },
+    {
+      "worker_id": "HW-TEST-26437",
+      "worker_name": "Anita Devi",
+      "date": "2026-07-08",
+      "check_in": "09:00",
+      "check_out": null,
+      "remarks": null
+    },
+    {
+      "worker_id": "654321",
+      "worker_name": "Drushti bhavsar",
+      "date": "2026-07-08",
+      "check_in": "12:01",
+      "check_out": "12:01",
+      "remarks": null
+    },
+    {
+      "worker_id": "123456",
+      "worker_name": "Samarth Patil",
+      "date": "2026-07-11",
+      "check_in": "21:58:06",
+      "check_out": null,
+      "remarks": null
+    },
+    {
+      "worker_id": "HW-TEST-49916",
+      "worker_name": "Anita Devi",
+      "date": "2026-07-11",
+      "check_in": "22:01:33",
+      "check_out": null,
+      "remarks": null
+    },
+    {
+      "worker_id": "54445",
+      "worker_name": "shreya shinde",
+      "date": "2026-07-12",
+      "check_in": "00:07:48",
+      "check_out": null,
+      "remarks": null
+    }
+  ],
+  "visits": [
+    {
+      "worker_id": "HW-2026-44",
+      "worker_name": "Anita Devi",
+      "date": "2026-07-08",
+      "time": "11:09:11",
+      "village": "Rampur",
+      "tasks": "Vaccinated 18 children, conducted general checkups, distributed iron tablets.",
+      "remarks": "Regular monthly trip"
+    },
+    {
+      "worker_id": "123456",
+      "worker_name": "Samarth Patil",
+      "date": "2026-07-08",
+      "time": "11:11:16",
+      "village": "Nandgaon",
+      "tasks": "General health checkup at the zp school",
+      "remarks": null
+    },
+    {
+      "worker_id": "HW-TEST-49916",
+      "worker_name": "Anita Devi",
+      "date": "2026-07-08",
+      "time": "11:14:39",
+      "village": "Rampur",
+      "tasks": "Vaccinated 18 children, conducted general checkups, distributed iron tablets.",
+      "remarks": "Regular monthly trip"
+    },
+    {
+      "worker_id": "HW-TEST-62907",
+      "worker_name": "Anita Devi",
+      "date": "2026-07-08",
+      "time": "11:36:51",
+      "village": "Rampur",
+      "tasks": "Vaccinated 18 children, conducted general checkups, distributed iron tablets.",
+      "remarks": "Regular monthly trip"
+    },
+    {
+      "worker_id": "HW-TEST-26437",
+      "worker_name": "Anita Devi",
+      "date": "2026-07-08",
+      "time": "11:56:22",
+      "village": "Rampur",
+      "tasks": "Vaccinated 18 children, conducted general checkups, distributed iron tablets.",
+      "remarks": "Regular monthly trip"
+    },
+    {
+      "worker_id": "654321",
+      "worker_name": "Drushti bhavsar",
+      "date": "2026-07-08",
+      "time": "12:03:16",
+      "village": "Khargaon",
+      "tasks": "distributed suppliments like calcium,iron",
+      "remarks": null
+    }
+  ],
+  "reports": [
+    {
+      "worker_id": "123456",
+      "worker_name": "Samarth Patil",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T11:49:04.000948",
+      "raw_notes": "Checked in at 11:09, checked out at 11:15. Visited Nandgaon village at 11:11:16 and conducted a general health checkup at the ZP school.",
+      "report": "# Daily Activity Report - Samarth Patil\n\n## Summary of Activities\nHealth Worker Samarth Patil commenced operational activities at 11:09 and concluded at 11:15. During this period, a visit was conducted to Nandgaon village, where a general health checkup was performed at the Zilla Parishad (ZP) school.\n\n## Operational Details\n*   **Check-in Time:** 11:09\n*   **Check-out Time:** 11:15\n*   **Total Operational Duration:** 6 minutes\n\n## Village Visits & Metrics\n*   **Village:** Nandgaon\n*   **Time of Arrival/Activity Commencement:** 11:11:16\n*   **Location of Activity:** Zilla Parishad (ZP) School\n*   **Activity Performed:** A general health checkup was conducted.\n*   **Patient Count/Vaccinations:** No specific patient counts or vaccination administrations were recorded for this activity.\n\n## Observations & Recommendations\nNo specific observations or recommendations were documented for this reporting period."
+    }
+  ],
+  "chats": {
+    "123456": [
+      {
+        "role": "user",
+        "text": "make my report",
+        "timestamp": "2026-07-08T11:25:08.626870"
+      },
+      {
+        "role": "model",
+        "text": "Sure, I can help you with that, Samarth. What would you like to include in your report today? Please provide me with the details or notes you want to report.",
+        "timestamp": "2026-07-08T11:25:08.629425"
+      },
+      {
+        "role": "user",
+        "text": "Summarize my work",
+        "timestamp": "2026-07-08T11:25:44.491988"
+      },
+      {
+        "role": "model",
+        "text": "Okay, Samarth, here's a summary of your activities for today, July 8th, 2026:\n\nYou checked in at 11:09 and checked out at 11:15.\nYou visited Nandgaon village at 11:11:16 and conducted a general health checkup at the ZP school.\n\nWould you like to generate a daily report based on these activities?",
+        "timestamp": "2026-07-08T11:25:44.494323"
+      },
+      {
+        "role": "user",
+        "text": "make report",
+        "timestamp": "2026-07-08T11:48:55.576518"
+      },
+      {
+        "role": "model",
+        "text": "Understood, Samarth. I will generate your daily report based on your summarized activities.\n\n[ACTION: REPORT: Checked in at 11:09, checked out at 11:15. Visited Nandgaon village at 11:11:16 and conducted a general health checkup at the ZP school.]",
+        "timestamp": "2026-07-08T11:48:55.578846"
+      },
+      {
+        "role": "user",
+        "text": "record village visits",
+        "timestamp": "2026-07-08T12:01:22.060722"
+      },
+      {
+        "role": "model",
+        "text": "Okay, Samarth. Please tell me which village you visited, what tasks you completed there, and if there are any specific remarks.",
+        "timestamp": "2026-07-08T12:01:22.064489"
+      },
+      {
+        "role": "user",
+        "text": "mark my check in",
+        "timestamp": "2026-07-11T21:58:06.329324"
+      },
+      {
+        "role": "model",
+        "text": "I have successfully marked your check-in for today, Samarth Patil! [ACTION: CHECK_IN]",
+        "timestamp": "2026-07-11T21:58:06.333217"
+      }
+    ],
+    "654321": [
+      {
+        "role": "user",
+        "text": "make my report",
+        "timestamp": "2026-07-08T12:03:55.479365"
+      },
+      {
+        "role": "model",
+        "text": "Sure, I can help you with that! What details would you like to include in your report for today? Please tell me about the activities you performed.",
+        "timestamp": "2026-07-08T12:03:55.481988"
+      }
+    ],
+    "HW-TEST-49916": [
+      {
+        "role": "user",
+        "text": "mark my attendance",
+        "timestamp": "2026-07-11T22:01:33.544827"
+      },
+      {
+        "role": "model",
+        "text": "I have successfully marked your check-in for today, Anita Devi! [ACTION: CHECK_IN]",
+        "timestamp": "2026-07-11T22:01:33.547789"
+      }
+    ],
+    "54445": [
+      {
+        "role": "user",
+        "text": "mark my attendance",
+        "timestamp": "2026-07-12T00:07:48.118006"
+      },
+      {
+        "role": "model",
+        "text": "I have successfully marked your check-in for today, shreya shinde! [ACTION: CHECK_IN]",
+        "timestamp": "2026-07-12T00:07:48.121339"
+      },
+      {
+        "role": "user",
+        "text": "make report",
+        "timestamp": "2026-07-12T00:08:59.421186"
+      },
+      {
+        "role": "model",
+        "text": "Sure, I can help you with that! What would you like to include in your report today? Please provide the details of your activities.",
+        "timestamp": "2026-07-12T00:08:59.424387"
+      },
+      {
+        "role": "user",
+        "text": "make report",
+        "timestamp": "2026-07-12T00:48:32.250270"
+      },
+      {
+        "role": "model",
+        "text": "Sure, I can help you create a report. Please tell me what activities you completed today or what you'd like to include in the report. For example, \"Visited Rampur, conducted 5 child check-ups and 2 antenatal care visits.\"",
+        "timestamp": "2026-07-12T00:48:32.253610"
+      }
+    ],
+    "23230": [
+      {
+        "role": "user",
+        "text": "generate report",
+        "timestamp": "2026-07-12T00:40:08.290080"
+      },
+      {
+        "role": "model",
+        "text": "Sure, om pite! What details would you like to include in your report today? Please tell me about your activities, observations, or any important information.",
+        "timestamp": "2026-07-12T00:40:08.293519"
+      }
+    ]
+  }
+}
