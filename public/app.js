@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const loginForm = document.getElementById('login-form');
   const loginName = document.getElementById('login-name');
   const loginId = document.getElementById('login-id');
+  const useDemoBtn = document.getElementById('use-demo-btn');
   
   const dashboardView = document.getElementById('dashboard-view');
   const dashboardGreeting = document.getElementById('dashboard-greeting');
@@ -198,6 +199,15 @@ document.addEventListener('DOMContentLoaded', () => {
       showToast('Error saving configuration.', 'error');
     }
   });
+
+  // Demo credentials autofill
+  if (useDemoBtn) {
+    useDemoBtn.addEventListener('click', () => {
+      loginName.value = 'Demo User';
+      loginId.value = 'DEMO001';
+      showToast('Demo credentials filled in. Tap "Start Attendance" to continue.', 'info');
+    });
+  }
 
   // Login handler
   loginForm.addEventListener('submit', async (e) => {

@@ -299,6 +299,57 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.95rem;
 }
 
+/* Demo Credentials Banner (Login screen) */
+.demo-credentials-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background-color: var(--primary-bg);
+  border: 1.5px dashed var(--primary-light);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin-bottom: 24px;
+}
+
+.demo-banner-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.35;
+}
+
+.demo-banner-text strong {
+  color: var(--primary-color);
+}
+
+.demo-banner-icon {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  fill: var(--primary-color);
+}
+
+.demo-fill-btn {
+  white-space: nowrap;
+  padding: 8px 14px;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 480px) {
+  .demo-credentials-banner {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .demo-banner-text {
+    justify-content: center;
+  }
+}
+
 /* Forms & Inputs */
 .form-container {
   display: flex;

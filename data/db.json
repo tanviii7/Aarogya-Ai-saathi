@@ -39,6 +39,11 @@
       "name": "om pite",
       "worker_id": "23230",
       "created_at": "2026-07-12T00:08:17.914149"
+    },
+    "DEMO001": {
+      "name": "Demo User",
+      "worker_id": "DEMO001",
+      "created_at": "2026-07-12T04:50:44.191258"
     }
   },
   "attendance": [
