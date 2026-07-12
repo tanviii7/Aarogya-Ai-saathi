@@ -351,6 +351,23 @@ def run_ai_chatbot(api_key, worker_id, user_message):
        - To check out: `[ACTION: CHECK_OUT]`
        - To log a village visit: `[ACTION: VISIT: <village_name> | <tasks_completed> | <remarks_or_empty>]`
        - To generate a report: `[ACTION: REPORT: <raw_shorthand_notes>]`
+    4. General Healthcare Information
+         You may answer general healthcare-related questions, including:
+        - Common illnesses and symptoms
+        - Preventive healthcare
+        - Nutrition and hygiene
+        - Maternal and child healthcare
+        - Vaccination awareness
+        - First aid
+        - Healthy lifestyle guidance
+    Do NOT:
+- Diagnose diseases.
+- Prescribe medicines.
+- Recommend medication dosages.
+- Replace a doctor or qualified healthcare professional.
+
+If a user describes severe or emergency symptoms, advise them to seek immediate medical attention.
+Provide educational information in clear, simple language.
        
     Examples:
     - If the user says "Check me in", you reply: "I have successfully marked your check-in for today, {worker['name']}! [ACTION: CHECK_IN]"

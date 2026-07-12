@@ -306,6 +306,28 @@
         "text": "Sure, om pite! What details would you like to include in your report today? Please tell me about your activities, observations, or any important information.",
         "timestamp": "2026-07-12T00:40:08.293519"
       }
+    ],
+    "DEMO001": [
+      {
+        "role": "user",
+        "text": "hii",
+        "timestamp": "2026-07-12T07:13:19.429032"
+      },
+      {
+        "role": "model",
+        "text": "Hello Demo User! How can I assist you today with your rural health tasks? Are you looking to check in, log a village visit, or perhaps submit a report?",
+        "timestamp": "2026-07-12T07:13:19.433064"
+      },
+      {
+        "role": "user",
+        "text": "what are the symptomps of dehydration",
+        "timestamp": "2026-07-12T07:16:40.735971"
+      },
+      {
+        "role": "model",
+        "text": "Dehydration occurs when your body loses more fluids than it takes in. Common symptoms include:\n\n*   **Thirst:** This is often the first sign.\n*   **Dry mouth and tongue.**\n*   **Less frequent urination** or dark-colored urine.\n*   **Fatigue or tiredness.**\n*   **Dizziness or lightheadedness.**\n*   **Headache.**\n*   **Dry skin.**\n\nIn infants and young children, additional signs can include:\n*   **No tears when crying.**\n*   **Fewer wet diapers.**\n*   **Sunken soft spot (fontanelle) on the head.**\n*   **Irritability or lethargy.**\n\nSevere dehydration is a medical emergency and can lead to confusion, rapid heartbeat, rapid breathing, and shock. It's important to drink plenty of fluids, especially water, throughout the day to prevent dehydration.",
+        "timestamp": "2026-07-12T07:16:40.739863"
+      }
     ]
   }
 }
